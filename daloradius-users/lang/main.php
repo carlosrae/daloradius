@@ -33,6 +33,9 @@
 		case "ro":
 			include (dirname(__FILE__)."/ro.php");
 			break;
+		case "pt_br":
+			include (dirname(__FILE__)."/pt_br.php");
+			break;
 		default:
 			include (dirname(__FILE__)."/en.php");
 			break;
